@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(66, 64, 64);
+}
+nav{
+    text-decoration: none;
+    display: flex;
+    justify-items: center;
+    background-color: black;
+    height: 100%;
+   flex-wrap: wrap;
+}
+nav ul{
+    margin: 0px auto;
+
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 65px;
+    font-size: 25px;
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: orange;
+}
+
+.search{
+    margin: 5px;
+}
+h1{
+    margin: 20px 20px;
+    color: white;
+    font-family: Cambria;
+    font-size: 50px;
+}
+.main{
+    display: flex;
+   
+    margin: 10px 20px;
+}
+.container1{
+    width: 70%;
+    height: 450px;
+    border: 5px solid white;
+}
+.container2{
+    background-color: transparent;
+    width: 30%;
+    height: 420px;
+    margin: 50px;
+}
+.container1 video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.container2 h1{
+
+    color: orange;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2 p{
+    color: cyan;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+.about p{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    margin: 25px 20px;
+    padding-right: 30%;
+}
+footer {
+    background-color: rgb(52, 133, 255);
+    /* background-size: 100px; */
+}
+.end{
+    text-align: center;
+    color: white;
+}
+.cast{
+    display: flex;
+    margin: 25px 0px;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+.cast img{
+    margin: 10px;
+    width: 20vh;
+    height: 100%;
+}
+h1 .info{
+    color: whitesmoke;
+}
